@@ -15,7 +15,7 @@ body{
 }
 body.home{
     background-image: url('pastel_sky.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
