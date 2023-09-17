@@ -1,0 +1,99 @@
+.imageAttributions{
+    color: #9EA3B0;
+
+}
+
+h1{
+    color: #546A7B;
+}
+
+body{
+    background-color: #E6D3CD;
+    font-family: sans-serif;
+    color:#546A7B;
+    
+}
+body.home{
+    background-image: url('pastel_sky.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+img.headshot{
+    max-width: 300px;
+    max-height: 350px;
+}
+
+table,th,td{
+    border: 1px solid #E4C3AD;
+    text-align: center;
+}
+
+table.zebra,th.zebra,td.zebra{
+    border: 2px solid #E4C3AD;
+    
+}
+th.zebra{
+    background-color: #dd8d6b;
+    width:25%;
+}
+td.zebra{
+    background-color: #FAE1DF;
+}
+td.zebra2{
+    background-color: #E4C3AD;
+}
+
+td{
+    width: 40%;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.list{
+    text-align: left;
+    vertical-align: top;
+}
+.link{
+    background-color: #546A7B;
+}
+
+a:hover{
+    color:#FAE1DF;
+}
+a:visited{
+    color:#9EA3B0;
+}
+a:link{
+    color: #9EA3B0;
+}
+
+.assignmentDiv{
+    margin-top:5cm;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    text-align: center;
+
+}
+.poemDiv{
+    margin-top:2cm;
+    background-color: #E6D3CD;
+    margin-left: auto;
+    margin-right:auto;
+    border: 5px dotted #546A7B;
+    width: 50%;
+    
+}
+#poem{
+    text-align: center;
+    font-size: 15px;
+}
+#poemHeading{
+    text-align: center;
+    font-size: 20px;
+}
