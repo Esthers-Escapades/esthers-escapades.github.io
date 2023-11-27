@@ -1,0 +1,140 @@
+* {
+	font-size : 8pt;
+	font-family: Tahoma;
+	margin: none;
+	padding: none;
+}
+
+
+body{
+	background-image : url(banner.png), url(bannerbackground.png) ,url(background.png);
+	background-position: top center;
+	background-repeat: no-repeat, repeat-x, repeat;
+	
+}
+
+#movieTitle{
+	font-size: 24pt;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 50px;
+	margin-bottom:25px;
+	
+}
+
+
+.ratingBox{
+	border-style: solid;
+	border-color: gray;
+	width: 800px;
+	margin:auto;
+	
+}
+       
+
+.leftCol{
+	overflow:hidden;
+	width: 550px;
+}
+.rightCol{
+	width: 220px;
+	float: right;
+}
+
+.leftFloat{
+	float: left;
+}
+
+
+
+.rightFloat{
+	float: right;
+}
+
+/* left side of reviews */
+#ratingSection{
+	border-style: solid;
+	border-color:pink;
+	background-image: url(rottenbig.png), url("rottenbackground.png");
+	background-repeat: no-repeat, repeat;
+	height:83px;
+}
+	/* id's and sections for left column, top row */
+	#red{
+		float:left;
+		margin-top: 0px;
+		margin-left: 100px;
+		color: red;
+		font-size: 48pt;
+		font-style: bold; 
+	}
+	#miniReviewTotal{ 
+		float: right;
+		color: white;
+		margin-top: 50px;
+		margin-right: 150px;
+		
+	}
+
+#reviewSection{
+	width: 550px;
+	border-style: solid;
+	border-color: blue;
+}
+	/*id's , divs and sections for left column, bottom row*/
+	.leftFloat > img{
+		width : 10px;
+	}
+	
+	.container{
+		display: flex; 
+        flex-direction: column; 
+		flex-wrap: wrap;
+	}
+	
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns in each row */
+  grid-gap: 10px; /* Adjust the spacing between columns */
+  width: 100%; /* Ensure each row spans the full width */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.review {
+  background-color: #E1D697;
+  border-style: solid;
+  border-color: grey;
+  margin: 5px;
+  flex-grow: 1; /* Allow reviews within a row to expand equally */
+}
+	
+	
+
+/* right side of review box*/
+#posterSection{
+	width: 250px;
+	position: relative;
+	left: -26px;
+}
+
+#generalSection{
+	background-color:  #A2B964;
+	font-family: Arial;
+	width: 250px;
+	position: relative;
+	left: -26px;
+	top: -15px;
+}
+	
+	.generalInfo{
+		margin : 10px;
+	}
+
+#poster{
+	max-width: inherit;
+}
+
