@@ -99,3 +99,7 @@ a:link{
     text-align: center;
     font-size: 20px;
 }
+
+span.red{
+    color: #ff6961;
+}
